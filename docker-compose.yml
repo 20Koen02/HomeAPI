@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  homeapi:
+    build: .
+    container_name: HomeAPI
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
