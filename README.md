@@ -11,7 +11,9 @@
 ## 📝 To Do
 * Make **HomeAPI Client** for target machines to turn off the machine
 * Turn a machine off with the **HomeAPI Client**
-* Support for Xiaomi Mijia Bluetooth Temperature Humidity Sensor
+* Support for Xiaomi Mijia Bluetooth **Temperature Humidity Sensor**
+* Store Temperature & Humidity data in an **InfluxDB Database**
+* Switch to **different database**
 
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=db4949)
