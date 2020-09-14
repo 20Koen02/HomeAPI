@@ -3,15 +3,15 @@ from fastapi import FastAPI, Depends
 from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
 from dotenv import load_dotenv
-from database.database import engine, get_db
-from routers.auth.auth import oauth2_scheme
-from routers.lights import lights
-from routers.lights import models as light_models
-from routers.machines import machines
-from routers.machines import models as machines_models
-from routers.auth import auth
-from routers.auth import models as auth_models
-from settings import app_title, app_version, tags_metadata, app_description
+from app.database.database import engine, get_db
+from app.routers.auth.auth import oauth2_scheme
+from app.routers.lights import lights
+from app.routers.lights import models as light_models
+from app.routers.machines import machines
+from app.routers.machines import models as machines_models
+from app.routers.auth import auth
+from app.routers.auth import models as auth_models
+from app.settings import app_title, app_version, tags_metadata, app_description
 
 load_dotenv()
 

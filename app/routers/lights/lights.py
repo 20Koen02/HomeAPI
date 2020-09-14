@@ -4,7 +4,7 @@ from fastapi import Depends, APIRouter, HTTPException, Query
 from sqlalchemy.orm import Session
 from yeelight import Bulb, BulbException
 
-from database.database import SessionLocal, get_db
+from app.database.database import SessionLocal, get_db
 from . import schemas, crud
 
 router = APIRouter()

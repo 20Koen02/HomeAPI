@@ -26,7 +26,7 @@ tags_metadata = [
 # DATABASE #
 ############
 
-database_url = "sqlite:///./database/homeapi.db"
+database_url = "sqlite:///./app/database/homeapi.db"
 
 ########
 # AUTH #

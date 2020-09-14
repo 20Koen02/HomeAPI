@@ -4,8 +4,8 @@ from fastapi import Depends, APIRouter, HTTPException
 from sqlalchemy.orm import Session
 
 from . import schemas, crud
-from database.database import SessionLocal, get_db
-from helper import wol, ping
+from app.database.database import SessionLocal, get_db
+from app.helper import wol, ping
 
 router = APIRouter()
 

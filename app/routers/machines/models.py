@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String, Integer
 
-from database.database import Base
+from app.database.database import Base
 
 
 class Machine(Base):

@@ -8,10 +8,10 @@ from jose import JWTError, jwt
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 
-from database.database import get_db
-from routers.auth import models
-from routers.auth.schemas import UserInDB, TokenData, User, Token
-from settings import token_expires_in_minutes, jwt_algorithm
+from app.database.database import get_db
+from app.routers.auth import models
+from app.routers.auth.schemas import UserInDB, TokenData, User, Token
+from app.settings import token_expires_in_minutes, jwt_algorithm
 
 pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/token")

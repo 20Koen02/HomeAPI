@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String, Boolean, Integer
 
-from database.database import Base
+from app.database.database import Base
 
 
 class Light(Base):
