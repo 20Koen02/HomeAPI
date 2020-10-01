@@ -26,7 +26,8 @@ tags_metadata = [
 # DATABASE #
 ############
 
-database_url = "sqlite:///./app/database/homeapi.db"
+database_url = "sqlite:////home/rsoledispa/Documents/PythonProjects/HomeAPI/app/database/backup.db"
+#database_url = "postgresql://superuser:supersecret@localhost/homeapidb"
 
 ########
 # AUTH #
