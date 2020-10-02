@@ -11,10 +11,15 @@ router = APIRouter()
 bulbs = {}
 
 bulb_db = SessionLocal()
-bulb_lights = crud.get_lights(bulb_db)
-for bulb_light in bulb_lights:
-    bulbs[bulb_light.name] = Bulb(bulb_light.ip)
-bulb_db.close()
+try:
+    bulb_lights = crud.get_lights(bulb_db)
+    for bulb_light in bulb_lights:
+        bulbs[bulb_light.name] = Bulb(bulb_light.ip)
+except:
+    print('information cannot be retrieved')
+finally:
+    bulb_db.close()
+
 
 
 def change_light(db, name: str, func: str, arguments=None):

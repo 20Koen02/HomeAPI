@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3.3"
 
 services:
   homeapi:
@@ -7,3 +7,14 @@ services:
     restart: unless-stopped
     ports:
       - "8000:8000"
+    env_file:
+      - configuration.env
+    depends_on:
+      - homeDB
+  homeDB:
+    image: postgres:alpine
+    container_name: homeDB
+    env_file:
+      - configuration.env
+    ports:
+    - 5433:5432
