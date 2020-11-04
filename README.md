@@ -13,7 +13,8 @@
 * Turn a machine off with the **HomeAPI Client**
 * Support for Xiaomi Mijia Bluetooth **Temperature Humidity Sensor**
 * Store Temperature & Humidity data in an **InfluxDB Database**
-* Switch to **different database**
+* Write unit tests for every endpoint
+* Configure automatic test runner & codecov
 
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=db4949)
