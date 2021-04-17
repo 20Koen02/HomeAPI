@@ -1,4 +1,5 @@
-# HomeAPI
+# 🏠 HomeAPI
+![HomeAPI](https://socialify.git.ci/20Koen02/HomeAPI/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&language=1&logo=data%3Aimage%2Fsvg%2Bxml%2C%253Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2024%2024%27%20width%3D%2724%27%20height%3D%2724%27%253E%253Cpath%20fill%3D%27none%27%20d%3D%27M0%200h24v24H0z%27%2F%253E%253Cpath%20d%3D%27M20%2020a1%201%200%200%201-1%201H5a1%201%200%200%201-1-1v-9H1l10.327-9.388a1%201%200%200%201%201.346%200L23%2011h-3v9zM7%2011v2a5%205%200%200%201%205%205h2a7%207%200%200%200-7-7zm0%204v3h3a3%203%200%200%200-3-3z%27%20fill%3D%27rgba(255%2C255%2C255%2C1)%27%2F%253E%253C%2Fsvg%253E&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 **HomeAPI** connects local machines & smart devices to the internet
 
 ## 💡 Features
